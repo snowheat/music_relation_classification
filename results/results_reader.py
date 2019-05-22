@@ -47,6 +47,5 @@ class ResultReader():
             writer.writerows(table_rows)
 
 
-result_reader = ResultReader('./artist-genre/experiment_2019-05-19-02-05')
+result_reader = ResultReader('./artist-album/experiment_2019-05-21-16-12')
 result_reader.create_average_validation_result_csv()
-
